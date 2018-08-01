@@ -145,7 +145,7 @@ body {
     border-top: 4px solid #648880;
     float:left;
     font-size: 48px;
-    font-weight: 100;
+    font-weight: 2400;
     text-transform: uppercase;
     letter-spacing: .5px;
     line-height: 44px;
@@ -171,6 +171,15 @@ body {
     text-align: right;
   }
   
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+
+.nav li:last-child {
+  margin-right: 0;
+}
 /*
   ========================================
   Primary footer
@@ -318,7 +327,6 @@ a:hover {
 
 p {
     text-align: left;
-    text-indent: 10px;
     
 }
 
@@ -331,6 +339,7 @@ p {
 .row,
 .row-alt {
     min-width: 960px;
+    padding: 66px 0 44px 0;
 }
 .row {
     background:white;
@@ -346,3 +355,18 @@ p {
     padding: 44px 0 22px 0;
 }
   
+/*
+
+ ========================================
+ Leads
+========================================
+*/
+
+.lead {
+  text-align: center;
+}
+
+.lead p {
+  font-size: 21px;
+  line-height: 33px;
+}
