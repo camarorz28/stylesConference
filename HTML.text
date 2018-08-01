@@ -1,0 +1,69 @@
+HTML, HyperText Markup Language, gives content structure and meaning by defining that content as, 
+for example, headings, paragraphs, or images.
+Rule: HTML will always represent content
+
+Three common HTML terms you should begin learning are "elements", "tags", and "attributes".
+
+Elements -
+Elements are designators that define the structure and content of objects within a page. 
+    Example: <h1>, <p>, <a>, <div>, <span>, <strong>, and <em>
+
+    Two elements—<div>s and <span>s—that actually don’t hold any semantic value. 
+      They exist for styling purposes only.
+      Divisions, or <div>s, and <span>s are HTML elements that act as containers solely for styling purposes. 
+      As generic containers, they do not come with any overarching meaning or semantic value.
+
+
+    Block vs. Inline Elements:
+    Most elements are either block- or inline-level elements. What’s the difference?
+    Block-level elements begin on a new line, stacking one on top of the other, and occupy any available width.
+    Block-level elements may be nested inside one another and may wrap inline-level elements. 
+    We’ll most commonly see block-level elements used for larger pieces of content, such as paragraphs.
+
+    Inline Elements:
+    Inline-level elements do not begin on a new line. They fall into the normal flow of a document, 
+    lining up one after the other, and only maintain the width of their content. 
+    Inline-level elements may be nested inside one another; however, 
+    they cannot wrap block-level elements. 
+    We’ll usually see inline-level elements with smaller pieces of content, such as a few words.
+
+    <div>s and <span>:
+    Both <div>s and <span>s, however, are extremely valuable when building a website 
+    in that they give us the ability to apply targeted styles to a contained set of content.
+
+
+
+    
+
+Tags - 
+The use of less-than and greater-than angle brackets surrounding an element creates what is known as a tag. 
+Tags most commonly occur in pairs of opening and closing tags.
+    Example: <h1>...</h1>
+
+  Opening tag -
+  An opening tag marks the beginning of an element. It consists of a less-than sign followed by an element’s name, 
+  and then ends with a greater-than sign; for example, <div>.
+
+  Closing tag - 
+  A closing tag marks the end of an element. It consists of a less-than sign followed by a forward slash and the element’s name, 
+  and then ends with a greater-than sign; for example, </div>.
+
+  Anchor tag - 
+  The content that falls between the opening and closing tags is the content of that element. 
+  An anchor link, for example, will have an opening tag of <a> and a closing tag of </a>. 
+  What falls between these two tags will be the content of the anchor link
+    for example, So, anchor tags will look a bit like this: <a>...</a>.
+    for example, So, anchor tags will look a bit like this: <a>...</a>
+
+
+Attributes
+Attributes are properties used to provide additional information about an element. 
+The most common attributes include the id attribute, which identifies an element; 
+the class attribute, which classifies an element; 
+the src attribute, which specifies a source for embeddable content; 
+and the href attribute, which provides a hyperlink reference to a linked resource.
+  in the example below href is the attribute, and is stated after the opening bracket
+  example: <a href="http://shayhowe.com/">Shay Howe</a>
+  HTML syntax outline including an element (<a), attribute (href = "http://shayhow.com/"), and tag (</a>)
+
+

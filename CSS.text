@@ -1,0 +1,75 @@
+CSS, or Cascading Style Sheets, is a presentation language created to style the appearance of content—using, 
+for example, fonts or colors.
+Rule: CSS will always represent the appearance of content
+
+These terms include selectors, properties, and values. 
+
+Selectors -
+  A selector designates exactly which element or 
+  elements within our HTML to target and apply styles (such as color, size, and position) to.
+
+  Selectors generally target an attribute value, such as an id or class value,
+  or target the type of element, such as <h1> or <p>.
+    Example of selector: p { ... }
+
+    Most common selectors: type, class, and ID selectors.
+
+      TYPE selectors target elements by their element type. 
+        For example, should we wish to target all division elements, <div>, we would use a type selector of div.
+        Example CSS: div { ... }
+        Example HTML: <div> ... </div>
+        The type selector has the lowest specificity weight and holds a point value of 0-0-1. 
+
+      CLASS selectors allow us to select an element based on the element’s class attribute value. 
+        Class selectors allow us to apply the same styles to different elements at 
+        once by using the same class attribute value across multiple elements.
+        The type selector has the lowest specificity weight and holds a point value of 0-0-1. 
+
+
+        Classes are denoted by a leading period, ., followed by the class attribute value
+          Example CSS: .awesome { ... }
+          Example HTML: <div class="awesome"> ... </div>
+                        <p class="awesome"> ... </p>
+          The ID selector has a high specificity weight and holds a point value of 1-0-0.                        
+
+
+      ID selectors - ID selectors are even more precise than class selectors, 
+        as they target only one unique element at a time.
+        Regardless of which type of element they appear on, id attribute values can only be used once per page. 
+        If used they should be reserved for significant elements.
+        ID selectors are denoted by a leading hash sign, #, followed by the id attribute value. 
+          Example CSS: #shadyhow { ... }
+          Example HTML: <div id="shadyhow"> ... </div>
+          
+
+
+
+
+
+
+
+Properties -
+  
+  Once an element is selected, a property determines the styles that will be applied to that element. 
+  Property names fall after a selector, within the curly brackets, {}, and immediately preceding a colon, :. 
+  
+  There are numerous properties we can use,
+  such as background, color, font-size, height, and width, and new properties are often added.
+    Example of Properties: 
+    p {
+      color: ...;
+       font-size: ...;
+    }
+
+
+Values -
+  Values can be identified as the text between the colon, :, and semicolon, ;. 
+  Here we are selecting all <p> elements and setting the value of the color property
+  to be orange and the value of the font-size property to be 16 pixels.
+  Example: 
+    p {
+      color: orange;
+      font-size: 16px;
+    }
+
+
